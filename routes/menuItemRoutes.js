@@ -2,6 +2,7 @@ const express = require("express")
 const router = express.Router()
 const MenuItem = require("../models/MenuItem")
 
+// routes
 // POST method route/endpoint to add a menu
 router.post("/", async (req, res) => {
     try {
